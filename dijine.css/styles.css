@@ -1,0 +1,113 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles */
+.taxt-primary {
+  color: #FD6E0A;
+}
+
+/*hader styles*/
+header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/*nav styles*/
+nav{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   margin: 50px 200px;
+
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.cv-but{
+    background-color: #FD6E0A;
+    width: 200px;
+    height: 64px;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+}
+
+.contact-but{
+    width: 160px;
+    height: 64px;
+    color: #FD6E0A;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+/*banner styles*/
+.banner-gre {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-profile-pic {
+    width: 580px;
+}
+
+.baner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content {
+    max-width: 580px;
+    
+}
